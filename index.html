@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Image Area</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            position: relative;
+            max-width: 2000px;
+            margin: auto;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+        .clickable-area {
+            position: absolute;
+            left: 82.86%; /* 1657.2 / 2000 * 100% */
+            top: 92.98%; /* 6508.4 / 7000 * 100% */
+            width: 11.2%; /* 224 / 2000 * 100% */
+            height: 1.14%; /* 80 / 7000 * 100% */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/JoyceHuang0907/basic-wordshop/main/Make%E5%9F%BA%E7%A4%8E%E8%AA%8D%E8%AD%89Workshop%20(1000%20x%204300%20%E5%83%8F%E7%B4%A0)%20(1).png" alt="Workshop Background">
+        <a href="https://form.jotform.com/243511828899471" target="_blank" class="clickable-area"></a>
+    </div>
+</body>
+</html>
